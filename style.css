@@ -36,7 +36,7 @@ body {
     font-weight: var(--fw-normal);
     color: var(--neutral-400);
     line-height: 1.7;
-    padding-block-end: 4.563rem;
+    padding-block-end: 8rem;
     background: var(--neutral-200);
 }
 
@@ -80,7 +80,7 @@ header {
 }
 
 .card {
-    
+    background: white;
     font-size: .86rem;
     padding: 2rem;
     border-radius: .3rem;
