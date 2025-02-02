@@ -167,15 +167,15 @@ main {
     }
 
     .wrapper--narrow {
-        max-width: 580px;
+        max-width: 603px;
     }
    
     h1 {
-        font-size: 2.5rem;
+        font-size: 2.4rem;
     }
 
     header p {
-        font-weight: 300;
+        font-weight: var(--fw-normal);
     }
 }
 
