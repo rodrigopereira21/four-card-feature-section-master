@@ -79,6 +79,17 @@ header {
     margin-bottom: 4rem;
 }
 
+.card {
+    
+    font-size: .86rem;
+    padding: 2rem;
+    border-radius: .3rem;
+    box-shadow: 0 1rem 1.5rem -0.5rem #DBE4F0;
+    border-top: .3rem solid;
+
+}
+
+
 .supervisor {
     border-color: var(--Cyan);
 }
@@ -100,11 +111,6 @@ header {
     font-weight: 600;
 }
 
-.card-icon {
-    display: block;
-    margin-left: auto;
-    margin-top: 2.25rem;
-}
 
 /*layout*/
 
@@ -126,15 +132,12 @@ header {
     
 }
 
-.card {
-    
-    font-size: .86rem;
-    padding: 2rem;
-    border-radius: .3rem;
-    box-shadow: 0 1rem 1.5rem -0.5rem #DBE4F0;
-    border-top: .3rem solid;
-
+.card-icon {
+    display: block;
+    margin-left: auto;
+    margin-top: 2.25rem;
 }
+
 
 .card p {
     margin-top: .5rem;
@@ -143,8 +146,7 @@ header {
     
 }
 
-
-
+/*media query*/
 
 @media (min-width: 750px) {
     .layout-grid {
